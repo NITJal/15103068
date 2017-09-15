@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
-/*@15103068
+/*
+A simple java program to find and print all prime numbers upto a given input
+@15103068 
+
+
 */
 
 class Prime
@@ -11,7 +15,7 @@ class Prime
 
                 // take input   
 		Scanner s=new Scanner(System.in);
-		System.out.println(“Enter the number upto which prime numbers are needed”);
+		System.out.println(â€œEnter the number upto which prime numbers are neededâ€);
 		n=s.nextInt();
  		// print all prime numbers upto n
 		for(int i=2;i<n;i++)
